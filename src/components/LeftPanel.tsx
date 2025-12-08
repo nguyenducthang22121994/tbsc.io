@@ -5,13 +5,13 @@ import { PieChart, Pie, Cell, ResponsiveContainer, Label, Tooltip } from 'rechar
 
 const LeftPanel = () => {
   const data = [
-    { name: 'Cổ phiếu', value: 87.9, color: '#d1c4e9' }, // Pastel lavender
-    { name: 'Tiền', value: 12.1, color: '#f5f5f5' }, // White/Grey
+    { name: 'Cổ phiếu', value: 90.7, color: '#d1c4e9' }, // Pastel lavender
+    { name: 'Tiền', value: 9.3, color: '#f5f5f5' }, // White/Grey
   ];
 
-  const totalAssets = 2161695023;
+  const totalAssets = 1728545023;
   const debt = 493519520;
-  const nav = 1668175503;
+  const nav = 1235025503;
 
   const formatCurrency = (value: number) => {
     return new Intl.NumberFormat('vi-VN').format(value);
